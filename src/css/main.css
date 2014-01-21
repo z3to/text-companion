@@ -1,0 +1,94 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+    text-shadow: 0 1px 1px rgba(255,255,255,.5);
+}
+
+body {
+    font-size: 1em;
+    font-size: 15px;
+    line-height: 1.4;
+    font-family: 'ff-tisa-web-pro', Helvetica, 'Helvetica Neue', Arial;
+    background: rgb(248, 248, 248);
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+p {
+	text-align: justify;
+	width: 600px;
+	line-height: 1.6;
+	margin: 1em auto 0 475px;
+}
+
+p span.hightlight {
+	color: rgb(2255,153,0);
+	border-bottom: none !important;
+}
+
+p:hover > span {
+	//color: rgb(48,48,48);
+	border-bottom: 1px solid rgba(48,48,48,.2);
+}
+
+aside {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	height: 100%;
+}
+
+aside svg#lines {
+	width: 245px;
+	top: -20px;
+	left: 205px;
+	position: absolute;
+	height: 100%;
+}
+
+aside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	display: inline;
+}
+
+aside ul li {
+	background-color: #eee;
+	margin-bottom: 0.5em;
+	height: 1.5em;
+	width: 200px;
+}
+
+aside ul li span {
+	height: 2em;
+	margin-left: 0.2em;
+	line-height: 1.5em;
+}
+
+aside ul li span + span{
+	margin-right: 0.5em;
+	float: right;
+}
+
+aside ul li svg {
+	width: auto;
+	height: 1.5em;
+	float: left;
+	margin-top: -2em;
+	fill: rgb(251,184,41);
+	width: 200px;
+}
