@@ -3,6 +3,6 @@ text-companion
 
 Showing text with it's structure and context
 
-(docs/demo.png)
+![Screenshot](docs/demo.png "Screenshot")
 
 experiment for information exploration course at FH Potsdam, Germany
